@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxArrayFire">
+			<UniqueIdentifier>{5F7B8949-1AD0-0CD5-ABF1-7920}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxArrayFire\src">
+			<UniqueIdentifier>{CA24E94E-C9BA-1E22-51E1-BE3C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxArrayFire\libs">
+			<UniqueIdentifier>{532E6B91-4EA2-631A-423D-5CCB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxArrayFire\libs\arrayfire">
+			<UniqueIdentifier>{09F8EE21-FD48-0914-BC80-AC1C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxArrayFire\libs\arrayfire\platform">
+			<UniqueIdentifier>{7353A1C9-549E-86CA-86FD-350F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxArrayFire\libs\arrayfire\platform\windows">
+			<UniqueIdentifier>{F3698507-15F4-BC2C-1264-4044}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxArrayFire\libs\arrayfire\platform\windows\include">
+			<UniqueIdentifier>{081DD9D7-CA0E-9BEA-D2DE-7B98}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af">
+			<UniqueIdentifier>{D3B23843-525E-009C-63EC-A58A}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\src\ofxArrayFire.h">
+			<Filter>addons\ofxArrayFire\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\algorithm.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\arith.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\array.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\backend.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\blas.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\compatible.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\compilers.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\complex.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\constants.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\cuda.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\data.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\defines.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\device.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\dim4.hpp">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\event.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\exception.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\features.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\gfor.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\graphics.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\half.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\image.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\index.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\internal.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\lapack.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\macros.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\memory.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\ml.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\opencl.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\random.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\seq.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\signal.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\sparse.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\statistics.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\timing.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\traits.hpp">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\util.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\version.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af\vision.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include\af</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxArrayFire\libs\arrayfire\platform\windows\include\arrayfire.h">
+			<Filter>addons\ofxArrayFire\libs\arrayfire\platform\windows\include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
