@@ -527,3 +527,8 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+!/libs/arrayfire/platform/windows/lib/af.lib
+!/libs/arrayfire/platform/windows/lib/afcpu.lib
+!/libs/arrayfire/platform/windows/lib/afcuda.lib
+!/libs/arrayfire/platform/windows/lib/afopencl.lib
