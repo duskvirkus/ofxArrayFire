@@ -16,16 +16,32 @@ linux:
 win_cb:
 
 vs:
-	ADDON_LIBS += libs/arrayfire/platform/windows/lib/af.lib
+	# For Version 3.8.0 Uncomment in this section
+
+	# ADDON_LIBS += libs/arrayfire-3-8-0/windows/lib/af.lib
 
 	# uncomment to generate a project targeting cpu (don't forget to comment out cuda and opencl)
-	# ADDON_LIBS += libs/arrayfire/platform/windows/lib/afcpu.lib
+	# ADDON_LIBS += libs/arrayfire-3-8-0/windows/lib/afcpu.lib
 
 	# uncomment to generate a project targeting cuda (don't forget to comment out cpu and opencl)
-	ADDON_LIBS += libs/arrayfire/platform/windows/lib/afcuda.lib
+	# ADDON_LIBS += libs/arrayfire-3-8-0/windows/lib/afcuda.lib
 
 	# uncomment to generate a project targeting opencl (don't forget to comment out cpu and cuda)
-	# ADDON_LIBS += libs/arrayfire/platform/windows/lib/afopencl.lib
+	# ADDON_LIBS += libs/arrayfire-3-8-0/windows/lib/afopencl.lib
+
+
+	# For Version 3.7.3 Uncomment in this section
+
+	ADDON_LIBS += libs/arrayfire-3-7-3/windows/lib/af.lib
+
+	# uncomment to generate a project targeting cpu (don't forget to comment out cuda and opencl)
+	# ADDON_LIBS += libs/arrayfire-3-7-3/windows/lib/afcpu.lib
+
+	# uncomment to generate a project targeting cuda (don't forget to comment out cpu and opencl)
+	ADDON_LIBS += libs/arrayfire-3-7-3/windows/lib/afcuda.lib
+
+	# uncomment to generate a project targeting opencl (don't forget to comment out cpu and cuda)
+	# ADDON_LIBS += libs/arrayfire-3-7-3/windows/lib/afopencl.lib
 	
 linuxarmv6l:
 	

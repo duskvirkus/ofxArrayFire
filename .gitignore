@@ -528,7 +528,12 @@ FodyWeavers.xsd
 .idea/
 *.sln.iml
 
-!/libs/arrayfire/platform/windows/lib/af.lib
-!/libs/arrayfire/platform/windows/lib/afcpu.lib
-!/libs/arrayfire/platform/windows/lib/afcuda.lib
-!/libs/arrayfire/platform/windows/lib/afopencl.lib
+!/libs/arrayfire-3-8-0/windows/lib/af.lib
+!/libs/arrayfire-3-8-0/windows/lib/afcpu.lib
+!/libs/arrayfire-3-8-0/windows/lib/afcuda.lib
+!/libs/arrayfire-3-8-0/windows/lib/afopencl.lib
+
+!/libs/arrayfire-3-7-3/windows/lib/af.lib
+!/libs/arrayfire-3-7-3/windows/lib/afcpu.lib
+!/libs/arrayfire-3-7-3/windows/lib/afcuda.lib
+!/libs/arrayfire-3-7-3/windows/lib/afopencl.lib
